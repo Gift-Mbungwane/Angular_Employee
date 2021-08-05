@@ -9,7 +9,6 @@ import { EmployeeService } from './services/employee.service';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { PusherService } from './services/pusher.service';
-import { PageNotFoundComponent } from './page-not-found.component';
 
 
 @NgModule({
@@ -17,7 +16,6 @@ import { PageNotFoundComponent } from './page-not-found.component';
     AppComponent,
     CreateEmployeeComponent,
     ListEmployeeComponent,
-    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
